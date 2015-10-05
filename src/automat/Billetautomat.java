@@ -102,7 +102,7 @@ public class Billetautomat {
 	}
 
 	public void setBilletpris(int billetpris) {
-		if (billetpris<0) {
+		if (billetpris<0 || ! montørtilstand) {
 			return;
 		}
 		this.billetpris = billetpris;
