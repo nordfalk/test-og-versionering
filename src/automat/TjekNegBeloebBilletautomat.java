@@ -6,7 +6,7 @@ public class TjekNegBeloebBilletautomat
 	{
 		Billetautomat automat = new Billetautomat();
 
-		automat.setBilletpris(1000); // burde blive ignoreret da vi ikke er logget ind
+		automat.setBilletpris(900); // burde blive ignoreret da vi ikke er logget ind
 
 		int retur = automat.getBilletpris();
 		if (retur != 10) {
